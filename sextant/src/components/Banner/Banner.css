@@ -1,0 +1,20 @@
+.Banner {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    color: #0D274D;
+    border-radius: 20px;
+}
+
+.Banner-Text {
+    font-size: 1.75vw;
+    margin: 2ch;
+}
+
+.Logo {
+    width: 8vw;
+}

@@ -1,0 +1,42 @@
+.Exhibit-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 36px;
+    border-radius: 6px;
+    margin-top: 65px;
+    width: 40%;
+    margin-left: 27%;
+    color: #0D274D;
+    border-radius: 20px;
+}
+
+.Exhibit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Exhibit-Content {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5%;
+    width: 35vw;
+    border-color: #0D274D;
+}
+
+.Exhibit-Text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.75vw;
+}
+
+
