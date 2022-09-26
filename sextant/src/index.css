@@ -6,7 +6,7 @@ body {
     background-color: #f2f2f2;
 }
 
-.IP {
+.Exhibit-Fields {
     display: flex;
     flex-direction: row;
     size: 2vw;

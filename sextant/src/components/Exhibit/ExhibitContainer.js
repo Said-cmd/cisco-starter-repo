@@ -2,6 +2,7 @@ import React from 'react'
 import Exhibit from './Exhibit';
 import "../Exhibit/ExhibitStyle.css";
 import AddressFetcher from '../AddressFetcher';
+import PylonLatency from '../PylonLatency';
 
 function ExhibitContainer() {
   return (
@@ -11,6 +12,9 @@ function ExhibitContainer() {
           </Exhibit>
         <Exhibit name="Your IPv6 Address">
           <AddressFetcher />
+        </Exhibit>
+        <Exhibit name="Latency">
+          <PylonLatency />
         </Exhibit>
     </div>
   )

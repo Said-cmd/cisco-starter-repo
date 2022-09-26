@@ -1,12 +1,11 @@
 import React from 'react'
 import "../Exhibit/ExhibitStyle.css";
-import AddressFetcher from '../AddressFetcher';
 
-function Exhibit({ name }) {
+function Exhibit({ name, children }) {
   return (
     <div className='Exhibit'>
       <h2 className='Exhibit-Text'>{name}</h2>
-      <div className='Exhibit-Content'><AddressFetcher/></div>
+      <div className='Exhibit-Content'>{children}</div>
       </div>
   )
 }

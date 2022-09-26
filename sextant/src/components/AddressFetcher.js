@@ -11,7 +11,7 @@ function AddressFetcher() {
     }, [])
         
   return (
-    <div className='IP'>{ipAddressData.ip}</div>
+    <div className='Exhibit-Fields'>{ipAddressData.ip}</div>
   )
 }
 
