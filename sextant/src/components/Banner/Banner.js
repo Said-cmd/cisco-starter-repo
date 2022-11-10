@@ -8,7 +8,7 @@ function Banner() {
     <div className='Banner'>
       <img src={Logo} alt="Cisco Logo" className='Logo'/>
       <h1 className='Banner-Text'>Sextant - Your Network Dashboard</h1>
-      <GiSextant size="4.2vw" />
+      <GiSextant className="sextant-logo" size="4.2vw" />
       </div>
   )
 }

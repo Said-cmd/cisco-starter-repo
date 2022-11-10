@@ -1,8 +1,5 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    padding: 36px;
-    margin: 0;
-    justify-content: center;
     background-color: #f2f2f2;
     color: #0D274D;
 }
@@ -13,4 +10,14 @@ body {
     font-size: 2.5vw;
     line-height: 5%;
     font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .Exhibit-Fields {
+        display: flex;
+        flex-direction: row;
+        font-size: 5.5vw;
+        line-height: 5%;
+        font-weight: bold;
+    }
 }

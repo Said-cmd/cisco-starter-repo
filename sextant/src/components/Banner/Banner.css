@@ -8,6 +8,7 @@
     margin-left: 10%;
     color: #0D274D;
     border-radius: 20px;
+    margin-top: 36px;
 }
 
 .Banner-Text {
@@ -17,4 +18,34 @@
 
 .Logo {
     width: 8vw;
+}
+
+@media screen and (max-width: 600px) {
+    .Banner {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 85vw;
+        margin-left: auto;
+        margin-right: auto;
+        color: #0D274D;
+        border-radius: 20px;
+        margin-top: 36px;
+    }
+    
+    .Banner-Text {
+        font-size: 6.75vw;
+        margin: 2ch;
+    }
+    
+    .Logo {
+        width: 20vw;
+        margin-left: 20px;
+    }
+
+    .sextant-logo {
+        display: none ;
+    }
 }

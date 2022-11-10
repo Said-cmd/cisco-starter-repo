@@ -7,7 +7,7 @@ function AddressFetcher() {
     useEffect(() => {
     fetch("https://api64.ipify.org?format=json")
         .then((r) => r.json())
-        .then((ipAddressData) => setIpAddressData(ipAddressData))
+        .then((data) => setIpAddressData(data))
     }, [])
         
   return (
